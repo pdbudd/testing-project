@@ -6,8 +6,11 @@ using namespace std;
 class plot_item;
 class plot_location;
 class plot_relation;
+class plot_character;
+extern vector<plot_character*> character_list;
+extern vector<plot_relation*> relation_list;
 
-enum race {
+enum class race {
 	elf, dwarf, human, gnome, tiefling,
 	dragonborn, helf, orc, horc, goliath, halfling,
 	firbolg, leonin, satyr, aarakocra, genasi, aasimar,
@@ -18,7 +21,7 @@ enum race {
 	fairy, hexblood, owlfolk, rabbitfolk, reborn
 };
 
-enum char_class {
+enum class char_class {
 	bard, druid, barbarian, fighter, ranger,
 	warlock, wizard, sorcerer, rogue, artificer, multiclass,
 	cleric, paladin, monk
@@ -33,8 +36,8 @@ public:
 	vector<plot_item*> character_items;
 	vector<plot_relation*> character_relationships;
 	plot_location* character_origin, *location;
-	char_class character_class;
-	race character_race;
+	enum char_class character_class;
+	enum race character_race;
 	plot_character(string charname);
 	plot_character(string charname, string charhair, char_class charclass, race charrace);
 	~plot_character();

@@ -1,0 +1,10 @@
+9
+0, 0,0,Nowhere, misc, 
+2, 1,0,Kimkirk, town, Dagger of freezing teeth, Steven, Carl, 
+0, 0,0,Dunny, building, 
+0, 1,0,Stabsville, town, snickers, 
+1, 4,0,Orlando, misc, bugger, Dagger of freezing teeth, snickers, Gloves of blasting, Steven, 
+1, 1,0,Syraceuse, room, bugger, Jude, 
+0, 1,0,Muggerville, building, Dagger of freezing teeth, 
+0, 1,0,Volben, building, Gloves of blasting, 
+0, 0,0,Sartith, town, 

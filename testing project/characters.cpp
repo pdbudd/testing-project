@@ -5,6 +5,8 @@
 
 using namespace std;
 
+
+
 plot_character::plot_character(string charname)
 {
 	character_origin = &loc_placeholder;

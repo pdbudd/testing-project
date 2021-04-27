@@ -1,0 +1,5 @@
+Gloves of blasting,0,650,Orlando
+Dagger of freezing teeth,0,200,Nowhere
+Bamboo spear of the panda,0,200,Nowhere
+bugger,0,400,Nowhere
+snickers,0,0,Nowhere
